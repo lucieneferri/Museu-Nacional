@@ -90,28 +90,27 @@ section#galeria img {
     margin-top: 3px;
 }
 
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 article#video {
-    float: left;
     width: 310px;
-    margin-left: 25px;
 }
 
 article#mapa {
-    float: left;
     width: 310px;
-    margin-left: 37px;
 }
 
 article#exposicoes {
-    float: left;
     width: 310px;
-    margin: 15px 0 0 25px;
 }
 
 article#historia {
-    float: left;
     width: 310px;
-    margin: 15px 0 0 37px;
 }
 
 h4 {
